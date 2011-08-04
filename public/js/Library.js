@@ -149,15 +149,16 @@
 									var book = new Book();
 									var mid = window.library.models.length + 1;
 									var authorlist = _.toArray(authors.value.split(";"));
-									authorlist = self.JSONify( authorlist, 'author' );
+									authorlist = self.JSONify( authorlist, 'name' );
 									var taglist = _.toArray(tags.value.split(" "));
 									taglist = self.JSONify(taglist, 'tag');
+									window.console.log( image.fileValue );
 									book.set({
 										id: mid, 
 										title: title.value, 
 										authors: authorlist, 
 										tags: taglist, 
-										image: image.value });
+										image: image.fileValue });
 									$( this ).dialog( "close" );
 									window.library.models.push(book);
 									window.console.log('adding: '+JSON.stringify(book));
