@@ -1,0 +1,29 @@
+[{
+	"id": 1,
+    "title": "Python cookbook",
+    "authors": [{"name": "Martelli, Alex"}, {"name": "Ascher, David"}],
+    "image": "/library/python-cookbook.jpg",
+    "tags": [{"tag": "python"}, {"tag": "programming"}, {"tag": "algorithms"}]
+},
+{
+	"id": 2,
+    "title": "CIO Wisdom",
+    "authors": [{"name": "Lane, Dean"}],
+    "image": "/library/cio-wisdom.jpg",
+    "lent_to": "Milward, Ross",
+    "tags": [{"tag": "business"}, {"tag": "essays"}]
+},
+{
+	"id": 3,
+    "title": "Natural Language Toolkit",
+    "authors": [{"name": "Bird, Steven"}, {"name": "Khan, Imran"}, {"name": "Loper, Edward"}],
+    "image": "/library/nltk.jpg",
+    "tags": [{"tag": "python"}, {"tag": "programming"}, {"tag": "api"}]
+},
+{
+	"id": 4,
+    "title": "Lord of the Rings",
+    "authors": [{"name": "Tolkien, J.R.R"}],
+    "image": "/library/lord-of-the-rings.jpg",
+    "tags": [{"tag": "fiction"}, {"tag": "fantasy"}]
+}]

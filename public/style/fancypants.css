@@ -1,0 +1,78 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Calibri", "sans"
+}
+
+.books {
+}
+
+.book {
+	font-style: italic;
+}
+
+.book .author-name {
+	font-style: normal;
+    font-weight: lighter;
+    color: #999;
+}
+
+.book button.queue {
+}
+
+.playlist {
+	color: #eee;
+	background-color: #333;
+}
+
+.playlist button.control {
+}
+
+.playlist button.play {
+}
+
+.playlist button.play:hover {
+}
+
+.playlist button.pause {
+}
+
+.playlist button.pause:hover {
+}
+
+.playlist button.prev {
+}
+
+.playlist button.prev:hover {
+}
+
+.playlist button.next {
+}
+
+.playlist button.next:hover {
+}
+
+.playlist .book .queue.add {
+}
+
+.playlist .book.current {
+	background-color: #383838;
+}
+
+.playlist .book.current .tags .current {
+    background-color: #995599;
+}
+
+.playlist .book .tags li {
+	font-style: normal;
+	padding: .3em;
+}
+
+.library {
+}
+
+.library .book .queue.remove {
+}
+
+.library .book .tags {
+}
+
+/* vim:set sw=4:ts=4:expandtab */

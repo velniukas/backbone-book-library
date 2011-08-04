@@ -1,0 +1,302 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+  height: auto;
+  min-height: 100%;
+	position: relative;
+}
+
+#header {
+	clear: both;
+}
+
+.categories {
+	background: gray;
+	position: absolute;
+	width: 15em;
+	height: 100%;
+	top: 2em;
+	left: 0;
+}
+
+.dialog-form label, input {
+	display: block;
+}
+
+.dialog-form input.text {
+	margin-bottom:12px; width:95%; padding: .4em;
+}
+
+.dialog-form fieldset {
+	padding: 0; border: 0; margin-top: 25px;
+}
+
+.dialog-form h1 {
+	font-size: 1.2em; margin: .6em 0;
+}
+
+#.dialog-form div#books-contain {
+#	width: 350px; margin: 20px 0;
+#}
+
+#.dialog-form div#books-contain table {
+#	margin: 1em 0; border-collapse: collapse; width: 100%;
+#}
+
+#.dialog-form div#books-contain table td, div#books-contain table th {
+#	border: 1px solid #eee; padding: .6em 10px; text-align: left;
+#}
+
+.dialog-form .ui-dialog .ui-state-error {
+	padding: .3em;
+}
+
+.dialog-form .validateTips {
+	border: 1px solid transparent; padding: 0.3em;
+}
+
+.categories h2 {
+
+}
+
+.categories .category-tag {
+	list-style: none;
+	position: relative;
+    margin: .2em 1em .2em 1em;
+    padding: .5em;
+    background: Gainsboro;
+    foreground: black bold;
+    border: 1px dotted orange;	
+	text-align: center;
+	top: 1em;
+}
+
+.books {
+    list-style: none;
+    padding: 0 2%;
+}
+
+.book {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 1em 0 0 0;
+    border-bottom: 1px dotted gray;
+}
+
+.book .book-detail {
+
+}
+
+.book .book-title {
+
+}
+
+.book .author-name {
+}
+
+.book .book-image {
+    position: relative;
+    float: left;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    margin: 0 1em 1em 0;
+}
+
+.book .tag {
+    margin: 0;
+    padding: .2em .2em .2em .2em;
+    background: Gainsboro;
+    foreground: black bold;
+    border: 1px dotted orange;
+}
+
+.book .lent-to {
+    position: absolute;
+    bottom: 2em;
+    width: 150px;
+    left: 0.5em;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: BlanchedAlmond;
+    border: 1px dotted black;
+    text-align: center;
+}
+
+.book .lend-button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-left: 30%;
+}
+
+.book .lend-button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+
+.book .lend-button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+
+.book .return-button {
+   border-top: 1px solid #189420;
+   background: #619647;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e9c6a), to(#619647));
+   background: -webkit-linear-gradient(top, #3e9c6a, #619647);
+   background: -moz-linear-gradient(top, #3e9c6a, #619647);
+   background: -ms-linear-gradient(top, #3e9c6a, #619647);
+   background: -o-linear-gradient(top, #3e9c6a, #619647);
+   padding: 5px 10px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-left: 20%;
+}
+
+.book .return-button:hover {
+   border-top-color: #17b52f;
+   background: #17b52f;
+   color: #ccc;
+}
+
+.book .return-button:active {
+   border-top-color: #1b5c1d;
+   background: #1b5c1d;
+}
+
+.book button.queue {
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.playlist {
+    position: absolute;
+    width: 30%;
+    padding: 0 3%;
+    min-height: 100%;
+}
+
+nav {
+    width: 180px;
+    margin: auto;
+    padding: 0;
+}
+
+nav button.control {
+    text-indent: -9999px;
+    width: 55px;
+    height: 50px;
+    border: 0;
+    padding: 10px;
+    margin: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+nav button.play {
+    background: url('/images/control_play.png') center no-repeat;
+}
+
+nav button.play:hover {
+    background: url('/images/control_play_hover.png') center no-repeat;
+}
+
+nav button.pause {
+    background: url('/images/control_pause.png') center no-repeat;
+}
+
+nav button.pause:hover {
+    background: url('/images/control_pause_hover.png') center no-repeat;
+}
+
+nav button.prev {
+    background: url('/images/control_start.png') center no-repeat;
+}
+
+nav button.prev:hover {
+    background: url('/images/control_start_hover.png') center no-repeat;
+}
+
+nav button.next {
+    background: url('/images/control_end.png') center no-repeat;
+}
+
+nav button.next:hover {
+    background: url('/images/control_end_hover.png') center no-repeat;
+}
+
+.playlist .book .queue.add {
+    display: none;
+}
+
+.playlist .book.current {
+}
+
+.playlist .book.current .tags .current {
+}
+
+.library {
+	margin: 0 15em;
+	padding: 0.1em 2%;
+}
+
+.library .book .queue.remove {
+    display: none;
+}
+
+.library .book .tags {
+    display: none;
+}
+
+.footer {
+	clear: both;
+}
+
+/* vim:set sw=4:ts=4:expandtab */
